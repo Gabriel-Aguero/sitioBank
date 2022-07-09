@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+::root{
+    --font: font-family: 'Public Sans', sans-serif;
+     
+    /* Colores Primario  */    
+    --dark-Blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+
+    /* Colores Neutrales  */    
+    --grayish-Blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+.container{
+    width:90%;
+    padding:80px 0;
+    margin: 0 auto;
+}
+
+.hero{
+    
+}
+.nav{
+    padding:30px 0;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;                
+    z-index: 2;
+}
+.hero__main{   
+    height:400px;
+    background-image: url(../images/bg-intro-mobile.svg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    
+    
+    
+}
+.hero__main__imagen{            
+    
+    z-index: -1;
+    
+
+}
